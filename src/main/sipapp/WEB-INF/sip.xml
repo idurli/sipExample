@@ -6,16 +6,16 @@
 	
 	<servlet-selection>
 		<main-servlet>
-			HelloSipWorldServlet
+            MyTestSipServlet
 		</main-servlet>
 	</servlet-selection>
 
 	<servlet>
-		<servlet-name>HelloSipWorldServlet</servlet-name>
-		<display-name>HelloSipWorldServlet</display-name>
-		<description>Hello SIP World Servlet</description>
+		<servlet-name>MyTestSipServlet</servlet-name>
+		<display-name>MyTestSipServlet</display-name>
+		<description>Options Test Servlet</description>
 		<servlet-class>
-			com.cinchcast.telephony.tests.HelloSipWorld
+			com.cinchcast.telephony.tests.MyTestSipServlet
 		</servlet-class>
 		<load-on-startup>1</load-on-startup>
 	</servlet>	
